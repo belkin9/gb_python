@@ -7,7 +7,7 @@
 """
 
 def get_max1(*args):
-    print(sum(sorted(list(args), reverse = True)[:1]))
+    print(sum(sorted(list(args), reverse = True)[:2]))
 
 def get_max2(*args):
     lst = list(args)
